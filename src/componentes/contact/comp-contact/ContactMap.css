@@ -1,0 +1,27 @@
+
+.leaflet-container {
+    width: 100%;
+    height: 927px;
+}
+
+@media only screen and (max-width: 701px) {
+    .leaflet-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    .conteiner-map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .leaflet-container {
+        width: 320px;
+        height: 320px;
+    }
+}

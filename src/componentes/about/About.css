@@ -1,0 +1,243 @@
+/*   
+background-color: #212023;
+*/
+.container-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.container-skills-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 40px 10px;
+
+}
+
+.container-skills-legend h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+#dark .container-skills-legend h1 {
+    color: rgb(255, 221, 1);
+}
+
+.container-legend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.container-legend p {
+    font-size: 18px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.container-h2-legend {
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin-bottom: 20px;
+}
+
+.container-h2-legend h2 {
+    font-size: 26px;
+}
+
+#dark .container-h2-legend h2 {
+    color: rgb(255, 221, 1);
+}
+
+.legend-left {
+    min-width: 250px;
+    max-width: 700px;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.legend-left a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#dark .legend-left a {
+    color: rgb(255, 221, 1);
+}
+
+.legend-right {
+    min-width: 250px;
+    max-width: 700px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-header-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend-right h2 {
+    font-size: 26px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+#dark .legend-right h2 {
+    color: rgb(255, 221, 1);
+}
+
+#dark #express {
+    background-color: white;
+}
+
+
+
+.container-groupe-skill-front,
+.container-groupe-skill-back,
+.container-groupe-skill-other,
+.container-groupe-skill-learning {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.front-skill-1 img,
+.front-skill-2 img,
+.front-skill-3 img,
+.front-skill-4 img,
+.front-skill-5 img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divide {
+    max-width: 700px;
+    height: 1px;
+    background-color: black;
+}
+
+.skill-frontend,
+.skill-backend,
+.skill-others,
+.skill-learning {
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin: 20px;
+}
+
+.skill-frontend h3,
+.skill-backend h3,
+.skill-others h3,
+.skill-learning h3 {
+
+    margin-bottom: 15px;
+}
+
+
+.back-skill-1 img,
+.back-skill-2 img,
+.back-skill-3 img,
+.back-skill-4 img,
+.back-skill-5 img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.other-skill-2 img,
+.other-skill-1 img,
+.other-skill-3 img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.learning-skill-2 img,
+.learning-skill-1 img,
+.learning-skill-3 img,
+.learning-skill-4 img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#dark .container-skills-legend {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#light .container-skills-legend {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 428px) {
+
+    .container-skills-legend {    
+        text-align: center;
+    }
+
+    .container-skills-legend h1 {    
+        font-size: 40px;
+    }
+    .container-h2-legend h2{
+        font-size: 22px;
+    }
+
+    .container-groupe-skill-front,
+    .container-groupe-skill-back,
+    .container-groupe-skill-other,
+    .container-groupe-skill-learning {
+        justify-content: center;
+    }
+
+    .skill-frontend,
+    .skill-backend,
+    .skill-others,
+    .skill-learning {
+        text-align: center;
+    }
+
+    .skill-frontend h3,
+    .skill-backend h3,
+    .skill-others h3,
+    .skill-learning h3 {
+
+        margin-bottom: 35px;
+    }
+
+}

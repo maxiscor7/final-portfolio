@@ -1,0 +1,66 @@
+.line-and-borderLinks-draw{
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+}
+
+.prueba{
+    overflow: hidden;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 52px;
+    top: 50px;
+}
+
+
+.prueba2{
+    overflow: hidden;
+    width: 365px;
+    height: 450px;
+    position: absolute;
+}
+
+
+#logo path:nth-child(1){
+    stroke-dasharray: 262px;
+    stroke-dashoffset: 262px;
+    animation: line-anim 2s ease-in-out infinite;
+    animation-delay: 2.4s;
+}
+#line path:nth-child(1){
+    stroke-dasharray: 213px;
+    stroke-dashoffset: 213px;
+    animation: line-anim 2s ease;
+    animation-delay: 0.7s;
+}
+
+.h1-hoverMe{
+    font-size: 18px;  
+}
+
+.line-draw{
+    position: absolute;
+    top: 99px;
+    right: 153px;
+    /*
+    bottom: 118px;
+    left: 257px;*/
+}
+
+.border-links-draw-infinite{
+
+    position: absolute;
+    right: 19px;
+    bottom: 60px;
+    /*
+    left: 450px;
+    bottom: 60px;*/
+}
+
+
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
+}

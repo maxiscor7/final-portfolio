@@ -1,0 +1,125 @@
+.swal2-popup {
+    font-family: 'Bebas Neue', cursive !important;
+    color: black !important;
+  }
+.swal2-popup button{
+    border: solid black 1px !important;
+    color: black !important;
+    font-weight: bold !important;
+    
+  }
+
+.conteiner-form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.container-title-text-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.container-title-text-contact p{
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.conteiner-form-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.conteiner-form-input label{
+    font-size: 25px;
+}
+
+#dark .conteiner-form-input label {
+    color: aliceblue;
+}
+
+.conteiner-form-input h1 {
+    font-size: 60px;  
+    margin-bottom: 10px;
+}
+
+#dark .conteiner-form-input h1{
+    color: rgb(255, 221, 1);
+}
+
+.conteiner-form-input p {
+    font-size: 18px;
+}
+
+.input-style {
+    width: 400px;
+    height: 25px;
+}
+
+.textarea-input {
+    width: 400px;
+    height: 300px;
+}
+
+.conteiner-form-input input,
+.conteiner-form-input textarea {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.buton-submit {
+    background-color: rgb(255, 221, 1);
+    width: 150px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.buton-submit:hover {
+    opacity: 0.5;
+}
+
+#error{
+    font-family: 'Familjen Grotesk', sans-serif;
+    text-align: center;
+}
+#dark #error label,
+#light #error label {
+    font-size: 18px;
+    color: red;
+}
+
+@media only screen and (max-width: 430px) {
+
+    .container-title-text-contact {
+        width: 320px;
+    }
+
+    .input-style {
+        width: 320px;
+    }
+
+    .textarea-input {
+        width: 320px;
+        height: 250px;
+    }
+
+    .conteiner-form-input input,
+    .conteiner-form-input textarea {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .buton-submit{
+        width: 100px;
+    }
+   
+}

@@ -1,0 +1,286 @@
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Goldman', cursive;
+font-family: 'Staatliches', cursive;
+*/
+
+
+.inicio-first-h1 {
+    overflow: hidden;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    margin: 0 10px;
+}
+
+.inicio-second-h1 {
+    overflow: hidden;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+}
+
+.text-writer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.container-im {
+    margin: 0 10px;
+}
+
+.container-maxi {
+    margin: 0 10px;
+    color: rgb(255, 221, 1);
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.container-all-text {
+    position: absolute;
+    bottom: 280px;
+    margin-left: 350px;
+}
+
+
+.container-sphere-pic {
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 275px;
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: width 1s;
+}
+
+#dark .container-sphere-pic{
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+}
+
+
+.container-sphere-pic:hover{
+    width: 700px;
+}
+
+
+.container-front-pic {
+    position: absolute;
+    left: 40px;
+    bottom: -3px;
+    z-index: 10;
+}
+
+
+.container-front-pic img {
+    height: 320px;
+}
+
+
+.text-interact-inicio {
+    display: flex;
+    right: 20px;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.img-dialog img {
+    height: 500px;
+    width: 350px;
+}
+
+.dialog-1 {
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    border-radius: 20px;
+    right: 10px;
+    top: 50px;
+    z-index: 9;
+}
+
+
+.left-point {
+    width: 0;
+    height: 0;
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    border-top: 10vh solid ;
+    position: absolute;
+    top: 45%;
+    left: -10%;
+    z-index: 10;
+    transform: rotate(60deg);
+    
+}
+
+#light .left-point {
+    border-top: 10vh solid rgb(70, 67, 67);
+    
+}
+#light .dialog-1 {
+    background-color: rgb(70, 67, 67);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+}
+#dark .left-point {
+    border-top: 10vh solid rgb(3, 3, 3);
+    
+}
+#dark .dialog-1 {
+    background-color: rgb(3, 3, 3);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+}
+
+#light .text-interact-inicio{
+    color: white;
+}
+
+#dark .text-interact-inicio{
+    color: white;
+}
+
+
+
+.img-dialog {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+    right: 60px;
+    bottom: 250px;
+}
+
+.hiden-text{
+    overflow: hidden;
+}
+
+.text-dialog {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    z-index: 11;
+}
+
+.container-logos-social-links{
+    position: absolute;
+    z-index: 20;
+    right: 90px;
+    bottom: 120px;
+}
+
+.container-logos-social-links img{
+    height: 50px;
+    width: 50px;
+}
+.container-logos-social-links img:hover{
+    opacity: 0.5;
+}
+
+
+
+/*
+.container-front-pic img {
+    transform: scaleX(-1);
+    filter: drop-shadow(6mm -2mm 4mm rgb(38, 37, 39, 0.5));
+}*/
+
+@media only screen and (max-width: 1669px) {
+
+    .container-all-text {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .container-all-text {
+        margin-left: 100px;
+    }
+
+    .inicio-first-h1 {
+        font-size: 50px;
+    }
+
+    .inicio-second-h1 {
+        font-size: 70px;
+    }
+
+    .text-writer {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1257px) {
+
+    .container-all-text {
+        margin-left: 100px;
+    }
+
+    .inicio-first-h1 {
+        font-size: 50px;
+    }
+
+    .inicio-second-h1 {
+        font-size: 70px;
+    }
+
+    .text-writer {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 1175px) {
+    .container-sphere-pic{
+        display: none;
+    }
+
+    .container-all-text {
+        margin-left: 10px;
+    }
+
+    .contenedor-inicio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .inicio-first-h1 {
+
+        font-size: 30px;
+    }
+
+    .inicio-second-h1 {
+        font-size: 50px;
+    }
+
+    .text-writer {
+        font-size: 20px;
+    }
+
+    .container-all-text {
+        bottom: 200px;
+    }
+
+}

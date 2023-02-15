@@ -1,0 +1,172 @@
+.App{
+  min-height: 100vh;
+  
+}
+
+hr{
+  height: 50px;
+}
+
+.navegador{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.navegador .leftSide {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+ .leftSide img{
+  margin-left: 50px;
+}
+
+.navegador .rightSide {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.botones{
+  display: flex;
+}
+
+
+.boton{
+  color: white;
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.boton-label-sw label{
+  
+  margin-left: 20px;
+  width: 100px;
+}
+
+.navegador .rightSide .material-symbols-outlined{
+  display: none;
+  margin-left: 20px;
+}
+
+.boton-label-sw{
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.material-symbols-outlined{
+  margin: 15px;
+}
+
+@media only screen and (max-width: 700px){
+  .navegador .rightSide .material-symbols-outlined{
+    display: flex;
+  }
+  .boton{
+    font-size: 18px;
+  }
+
+  .boton-label-sw{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boton-label-sw label{
+    margin-right: 0;
+    width: 100px;
+  }
+
+  .navegador .rightSide .botones{
+    display: none;
+  }
+
+  .navegador .rightSide #hidden {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 170px;
+    max-height: 170px;
+    width: 100%;
+    background-color: rgb(238, 208, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    z-index: 7;
+  }
+  
+  #light #hidden {
+    background-color: rgb(56, 56, 54);
+  }
+  
+
+}
+
+.active{
+  color: rgb(255, 221, 1);
+  /*modificar aca para cambiar el fondo del boton por una linea subrrallada*/
+  border-bottom: solid white 2px;  
+}
+
+#light{
+  background-color: #e3e3e3;
+  color: black;
+}
+#dark{
+  background-color: #0d0d0d;
+  color: white;
+}
+
+#light #hidden .boton{
+  color: white;
+}
+#light #hidden .active{
+  color: rgb(255, 221, 1);
+  border-bottom: solid gray 2px;  
+}
+
+
+#dark label{
+  color: black;
+}
+
+#dark .boton{
+  color: black;
+}
+
+#dark .active{
+  color: white;
+  border-bottom: solid black 2px;
+}
+
+#dark .navegador {
+  background-color: rgb(255, 221, 1);
+}
+
+@media only screen and (max-width: 410px){
+  .leftSide img{
+    margin-left: 10px;
+  }
+
+}
