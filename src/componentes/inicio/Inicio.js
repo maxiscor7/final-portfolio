@@ -57,7 +57,7 @@ export default function Inicio({ tema }) {
                         options={{ delay: 25 }}
                         onInit={(e) => {
                             e.pauseFor(3500)
-                                .typeString(`I'm a Fullstack web Developer`)
+                                .typeString(`I'm a Front-end web Developer`)
                                 .pauseFor(1000)
                                 .deleteAll()
                                 .typeString('I hope we can work together')
