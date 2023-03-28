@@ -46,11 +46,13 @@ export default function About() {
             <div className="container-h2-legend">
               <h2 >My name is Enrique Maximiliano Cornalba</h2>
               <br />
-              <h3>I'm a Fullstack web developer,<br /> based in Buenos Aires Argentina.</h3>
+              <h3>I'm a Front-end web developer,<br /> based in Buenos Aires Argentina.</h3>
             </div>
 
             <div>
-              <p>Bachelor's degree from the Leonardo Murialdo Institute of Higher Technician in Professional and Personal Informatics.</p>
+              <p>High school degree in Professional
+                and Personal Informatics in Leonardo
+                Murialdo Institute</p>
               <br />
               <p>Studying bootcamp <a href="https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=brand&gclid=CjwKCAiA85efBhBbEiwAD7oLQLJDaC1V0KG85etlbF8U4j2EiibP6BWSB2_rqKHT6sBt9H_HSvy5ZBoCqVQQAvD_BwE" target='_blank' rel="noreferrer" >Henry</a> in final stages (M4 - databases).</p>
               <br />
