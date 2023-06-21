@@ -5,7 +5,7 @@ import './Contact.css';
 import ContactMap from "./comp-contact/ContactMap";
 import github from '../../images/github.png'
 import linkedin from '../../images/linkedin.png'
-import cv from '../../assets/cv.pdf'
+import cv from '../../assets/Cv-Front-end-developer-Cornalba-Enrique.pdf'
 
 export default function Contact() {
 
