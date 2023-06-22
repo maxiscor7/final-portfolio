@@ -102,6 +102,10 @@ export default function About() {
                   <img src={reduxLogo} alt="" />
                   <p>Redux</p>
                 </div>
+                <div className="front-skill-6">
+                  <img src={typescriptLogo} alt="" />
+                  <p>Typescript</p>
+                </div>
 
               </div>
 
@@ -165,10 +169,6 @@ export default function About() {
 
               <div className="container-groupe-skill-learning">
 
-                <div className="learning-skill-1">
-                  <img src={typescriptLogo} alt="" />
-                  <p>Typescript</p>
-                </div>
                 <div className="learning-skill-2">
                   <img src={framerMotionLogo} alt="" />
                   <p>Framer Motion</p>
