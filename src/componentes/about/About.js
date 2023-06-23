@@ -20,6 +20,13 @@ import splineLogo from '../../images/spline.png'
 import threeJsLogo from '../../images/threeJs.png'
 import typescriptLogo from '../../images/typescript.png'
 import framerMotionLogo from '../../images/framerMotion.png'
+import jest from '../../images/rm-jest.png'
+import bootstrap from '../../images/rm-bootstrap.png'
+import tailwind from '../../images/rm-tailwind.png'
+import figma from '../../images/rm-figma.png'
+import github from '../../images/github.png'
+import postman from '../../images/rm-postman.png'
+
 
 
 
@@ -54,7 +61,7 @@ export default function About() {
                 and Personal Informatics in Leonardo
                 Murialdo Institute</p>
               <br />
-              <p>Studying bootcamp <a href="https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=brand&gclid=CjwKCAiA85efBhBbEiwAD7oLQLJDaC1V0KG85etlbF8U4j2EiibP6BWSB2_rqKHT6sBt9H_HSvy5ZBoCqVQQAvD_BwE" target='_blank' rel="noreferrer" >Henry</a> in final stages (M4 - databases).</p>
+              <p>Graduated bootcamp <a href="https://www.soyhenry.com/?utm_source=google&utm_medium=cpc&utm_campaign=GADS_SEARCH_ARG_BRAND&utm_content=brand&gclid=CjwKCAiA85efBhBbEiwAD7oLQLJDaC1V0KG85etlbF8U4j2EiibP6BWSB2_rqKHT6sBt9H_HSvy5ZBoCqVQQAvD_BwE" target='_blank' rel="noreferrer" >Henry</a></p>
               <br />
               <p>ENGLISH: C2 Proficient. <a href="https://www.efset.org/cert/Hy8NPz" target='_blank' rel="noreferrer" >EF SET Certificate</a></p>
               <br />
@@ -106,6 +113,18 @@ export default function About() {
                   <img src={typescriptLogo} alt="" />
                   <p>Typescript</p>
                 </div>
+                <div className="front-skill-7">
+                  <img src={jest} alt="" />
+                  <p>Jest</p>
+                </div>
+                <div className="front-skill-8">
+                  <img src={bootstrap} alt="" />
+                  <p>Bootstrap</p>
+                </div>
+                <div className="front-skill-9">
+                  <img src={tailwind} alt="" />
+                  <p>Tailwind</p>
+                </div>
 
               </div>
 
@@ -118,6 +137,14 @@ export default function About() {
 
               <div className="container-groupe-skill-back">
 
+                <div className="back-skill-5">
+                  <img src={thunderClientLogo} alt="" />
+                  <p>Thunder Client</p>
+                </div>
+                <div className="back-skill-6">
+                  <img src={postman} alt="" />
+                  <p>Postman</p>
+                </div>
                 <div className="back-skill-1">
                   <img src={nodeJsLogo} alt="" />
                   <p>Node.JS</p>
@@ -150,13 +177,17 @@ export default function About() {
                   <img src={gitLogo} alt="" />
                   <p>Git</p>
                 </div>
-                <div className="other-skill-2">
-                  <img src={thunderClientLogo} alt="" />
-                  <p>Thunder Client</p>
-                </div>
                 <div className="other-skill-3">
                   <img src={canva} alt="" />
                   <p>Canva</p>
+                </div>
+                <div className="other-skill-4">
+                  <img src={figma} alt="" />
+                  <p>Figma</p>
+                </div>
+                <div className="other-skill-5">
+                  <img src={github} alt="" />
+                  <p>GitHub</p>
                 </div>
               </div>
 

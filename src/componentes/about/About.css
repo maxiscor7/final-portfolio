@@ -124,7 +124,10 @@ background-color: #212023;
 .front-skill-3 img,
 .front-skill-4 img,
 .front-skill-5 img,
-.front-skill-6 img {
+.front-skill-6 img,
+.front-skill-7 img,
+.front-skill-8 img,
+.front-skill-9 img {
     height: 40px;
     width: 40px;
     padding: 5px;
@@ -159,7 +162,8 @@ background-color: #212023;
 .back-skill-2 img,
 .back-skill-3 img,
 .back-skill-4 img,
-.back-skill-5 img {
+.back-skill-5 img,
+.back-skill-6 img {
     height: 40px;
     width: 40px;
     padding: 5px;
@@ -169,10 +173,19 @@ background-color: #212023;
 
 .other-skill-2 img,
 .other-skill-1 img,
-.other-skill-3 img {
+.other-skill-3 img,
+.other-skill-4 img {
     height: 40px;
     width: 40px;
     padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.other-skill-5 img {
+    height: 50px;
+    width: 50px;
+    padding: 0;
     margin-left: 20px;
     margin-right: 20px;
 }
