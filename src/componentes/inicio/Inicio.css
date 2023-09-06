@@ -12,6 +12,8 @@ font-family: 'Staatliches', cursive;
     margin: 0 10px;
 }
 
+
+
 .inicio-second-h1 {
     overflow: hidden;
     display: flex;
@@ -36,8 +38,8 @@ font-family: 'Staatliches', cursive;
 }
 
 .container-all-text {
-    position: absolute;
-    bottom: 280px;
+    position: relative;
+    top: 130px;
     margin-left: 350px;
 }
 
@@ -259,6 +261,7 @@ font-family: 'Staatliches', cursive;
         display: flex;
         align-items: center;
         justify-content: center;
+       
     }
 
 
